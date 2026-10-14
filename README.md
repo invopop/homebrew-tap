@@ -10,5 +10,6 @@ brew install invopop/tap/invopop
 |---|---|
 | `invopop` | [invopop/cli](https://github.com/invopop/cli) |
 
-Formulae are generated and updated automatically by each tool's release
-workflow. Don't edit them by hand.
+Formulae build from the tagged source, so installs compile locally (Homebrew
+fetches Go as a build dependency). Each tool's release workflow bumps the
+`url` and `sha256` of its formula; other changes are made here by hand.
